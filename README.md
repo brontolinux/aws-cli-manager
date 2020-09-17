@@ -9,7 +9,7 @@ but updating an older version to the latest or uninstalling it is a bit tedious,
 where you did install the software last time and where you linked it. This Makefile takes care of it, so that you don't have to.
 
 This Makefile was tested on Debian Linux 10 "Buster". I expect it to work on mostly any Linux distribution but I haven't
-tested that. **Pull requests** to make it work on a wider range of Linux distributions **are welcome!** Pull requests to add **support other OSs** are also welcome!**
+tested that. **Pull requests** to make it work on a wider range of Linux distributions **are welcome!** Pull requests to **support other OSs** are also welcome!**
 
 ## Prerequisites
 
