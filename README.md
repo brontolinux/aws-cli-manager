@@ -14,7 +14,19 @@ tested that. **Pull requests** to make it work on a wider range of Linux distrib
 ## Prerequisites
 
 This Makefile requires `curl` and `unzip` to be installed on the system in `/usr/bin`. Just edit the variable definitions
-at the top of the Makefile if they don't match your system.
+at the top of the Makefile if they don't match your system (`CURL` and `UNZIP` respectively).
+
+## Defaults
+
+These are the defaults defined in the Makefile. You can edit it to suite your taste and needs:
+
+### Installation directory
+
+AKA `--install-dir` in the installer command line. By default it's `$HOME/.local/lib/aws-cli`, where `$HOME` is the home directory of the user running `make`. To change it, edit the `INSTALLDIR` definition in the Makefile. You can also modify it on `make`'s command line, but it's not recommended.
+
+### Binary directory
+
+AKA `--bin-dir` in the installer command line. By default it's `$HOME/bin`, where `$HOME` is the home directory of the user running `make`. To change it, edit the `BINDIR` definition in the Makefile. You can also modify it on `make`'s command line, but it's not recommended.
 
 ## Usage
 
